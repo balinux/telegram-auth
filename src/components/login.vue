@@ -7,7 +7,7 @@
     <vue-telegram-login 
       v-if="userInfo == null"
       mode="callback"
-      telegram-login="belajarwidgetbot"
+      telegram-login="BalinuxAuthBot"
       @callback="login" />
 
       <b-card
